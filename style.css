@@ -6,10 +6,17 @@ body {
   background-color: white;
   text-align: center;
   font-size: 1.4rem;
+  transition: 0.7s;
 }
 
 .navbar {
   background-color: #242424;
+}
+
+.dark-mode {
+  background-color: #181a1b;
+  color: white;
+  transition: 0.7s;
 }
 
 h2,
@@ -83,7 +90,7 @@ a {
 }
 
 #mail-address a {
-  color: #242424;
+  color: #555;
 }
 
 .fa-ul {
@@ -232,4 +239,23 @@ button:active {
   .mobile-profession {
     display: none;
   }
+}
+
+#darkModeBtn {
+  position: fixed;
+  bottom: 50px;
+  right: 30px;
+  z-index: 99;
+  height: 50px;
+  width: 50px;
+  outline: none;
+  background-color: #111111c2;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+#darkModeBtn:hover {
+  background-color: #333333c2;
+  color: white
 }
