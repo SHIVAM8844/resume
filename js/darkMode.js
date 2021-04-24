@@ -1,4 +1,7 @@
 var tmp = localStorage.getItem("dm");
+if(tmp == null) {
+	localStorage.setItem("dm", "day");
+}
 var bdyTag = [];
 bdyTag.push(document.getElementsByClassName("list-group-item"));
 bdyTag.push(document.getElementsByClassName("card-title"));
