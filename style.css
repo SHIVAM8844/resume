@@ -259,3 +259,7 @@ button:active {
   background-color: #333333c2;
   color: white
 }
+
+.devicon-github-plain {
+  font-size: 1.75rem;
+}
